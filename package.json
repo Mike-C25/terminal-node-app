@@ -1,0 +1,19 @@
+{
+  "name": "terminal-node-app",
+  "version": "1.0.0",
+  "description": "simple terminal node app",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike-C25/terminal-node-app.git"
+  },
+  "author": "Mike-C25",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike-C25/terminal-node-app/issues"
+  },
+  "homepage": "https://github.com/Mike-C25/terminal-node-app#readme"
+}
