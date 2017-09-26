@@ -7,12 +7,12 @@ run ```npm install```
 
 ### Basic Command in Terminal/CMD.EXE:
 ```
-	node liri.js <arg> <param>
+node liri.js <arg> <param>
 ```
-### Acceptable <args>
-	```
-	my-tweets
-	spotify-this-song <param>
-	movie-this <param>
-	do-what-it-says
-	```
+### Acceptable arg(arguments):
+```
+my-tweets
+spotify-this-song 'param'
+movie-this 'param'
+do-what-it-says
+```
