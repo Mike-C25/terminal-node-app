@@ -6,7 +6,8 @@ Simple cmd line node app
 If you don't have node.js, click [here](https://nodejs.org/en/) to install
 
 Once installed run ```npm install``` 
-...and that's it!
+
+create an .env file in the root folder and set your enviornment variables.
 
 ### Basic command structure in Terminal/CMD.EXE:
 ```
