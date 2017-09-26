@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Mike-C25/terminal-node-app#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "node-spotify-api": "^1.0.7",
     "request": "^2.82.0",
     "twitter": "^1.7.1"

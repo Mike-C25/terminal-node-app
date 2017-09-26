@@ -1,2 +1,3 @@
 var request = require('request');
-var 
+var Twitter = require('twitter');
+var Spotify = require('node-spotify-api');
