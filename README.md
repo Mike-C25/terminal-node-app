@@ -1,11 +1,14 @@
 # terminal-node-app
 Simple cmd line node app
 
+
 ### To Setup
-run ```npm install``` 
+If you don't have node.js, click [here](https://nodejs.org/en/) to install
+
+Once installed run ```npm install``` 
 ...and that's it!
 
-### Basic Command in Terminal/CMD.EXE:
+### Basic command structure in Terminal/CMD.EXE:
 ```
 node liri.js <arg> <param>
 ```
