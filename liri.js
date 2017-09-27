@@ -89,9 +89,9 @@ function callTwitter() {
         }
         var totalT = "";
         for (tweet in tweets) {
-            var t = JSON.stringify(tweets[tweet], null, 4);
-            console.log(` ${t} \n`);
-            totalT += `${t} \n`
+            var t = tweets[tweet];
+            console.log(`User: ${t.user.screen_name}\nLocation: ${t.user.location}\nPost Text: ${t.text}\n${t.created_at}\n`);
+            totalT += `User: ${t.user.screen_name}\nLocation: ${t.user.location}\nPost Text: ${t.text}\n${t.created_at}\n`
         }
         fAppend(userCategory, totalT)
     });
@@ -127,7 +127,7 @@ function callSpotify() {
 Song Name: ${spotifyObj.name}
 Preview the song here: ${spotifyObj.preview_url}
 Album Name: ${spotifyObj.album.name}\n`;
-          
+
             console.log(totalS);
             fAppend(userCategory, totalS)
         })
